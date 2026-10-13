@@ -1,17 +1,5 @@
 # Compiled executables
 build/
-calculator
-calculator_switch
-factorial
-first
-integer
-largest
-num_guessing
-odd_even
-odd_even_count
-temp_conversion
-Basics/
-hello
 
 # Temporary files
 tempCodeRunnerFile.cpp
