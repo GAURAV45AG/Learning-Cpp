@@ -1,9 +1,14 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+
 using namespace std ;
 
 int main(){
 
-    int x = 7;
+    srand(time(0));
+
+    int x = rand() % 11;
     int a ;
     int attempts = 0;
 
@@ -13,7 +18,7 @@ int main(){
 
         attempts++;
 
-        if(x==a) {
+        if(x == a) {
             cout << "That's correct! " << '\n';
             break;
         }
