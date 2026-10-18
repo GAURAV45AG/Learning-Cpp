@@ -8,10 +8,9 @@ using namespace std;
 int main(){
 
     char playagain;
-
-do{
     srand(time(0));
 
+do{
     int computerChoice = rand() % 3;
     string computerMove;
     int choice;
